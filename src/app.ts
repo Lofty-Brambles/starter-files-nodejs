@@ -31,7 +31,7 @@ if (app.get("env") === "production") {
 }
 
 // adds base routing
-app.use("/", indexRouter);
+app.use("/", indexRouter());
 
 // catch 404 and fwd
 app.use((req, res, next) => {

@@ -3,7 +3,7 @@ import { something } from "@controllers/page";
 
 const pageRouter = () => {
 	const router = express.Router();
-	router.use("/", pageRouter);
+	router.use("/", something);
 	return router;
 };
 
